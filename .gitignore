@@ -34,6 +34,10 @@ env/
 .env
 *.env
 
+# Local launcher
+run_pdf_bot.bat
+*.bat
+
 # IDE / Editor files
 .vscode/
 .idea/

@@ -117,6 +117,40 @@ streamlit run app.py
 
 ---
 
+## 📸 Application Screenshots & Live Demo Output
+
+Below is a walkthrough of the live interface and sample output from an analysis of **Cyber Law & Electronic Transactions PDF (`MODULE 04.pdf`)**:
+
+### 1. Document Upload, Executive Summary & Main Topics
+Upload single or multiple PDFs. The system automatically parses pages, chunks text, creates FAISS embeddings, and generates an executive summary alongside core topic tags.
+
+<p align="center">
+  <img src="screenshots/1_upload_and_summary.png" alt="Upload and Summary" width="900" />
+</p>
+
+### 2. Extracted Keywords & Key Takeaways
+Extracts high-priority keyword badges (e.g., *Digital, Online, Cyberspace, Electronic, Access*) and detailed conceptual takeaways.
+
+<p align="center">
+  <img src="screenshots/2_keywords_and_takeaways.jpg" alt="Keywords and Takeaways" width="900" />
+</p>
+
+### 3. Dynamic Clickable Question Generation
+Automatically formulates 5–10 document-specific questions that users can click for instant answers.
+
+<p align="center">
+  <img src="screenshots/3_generated_questions.png" alt="Generated Questions" width="900" />
+</p>
+
+### 4. Context-Grounded Q&A with Source Citations
+Ask any custom question or click a suggested query. LangGraph validates retrieved FAISS context and returns factual answers grounded strictly in the PDF text with source page citations.
+
+<p align="center">
+  <img src="screenshots/4_qa_and_citations.jpg" alt="Q&A Answer with Citations" width="900" />
+</p>
+
+---
+
 ## 🧪 Expected Results
 1. Upload any PDF document.
 2. Click **Analyze PDF 🚀**.
